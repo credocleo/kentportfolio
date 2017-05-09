@@ -20,9 +20,14 @@ a {
   transition: all 0.35s;
   color: #3498db;
 }
+
+a.portfolio{
+  color: #ffffff;
+}
+
 a:hover,
 a:focus {
-  color: #eb3812;
+  color: #222222;
 }
 h1,
 h2,
@@ -38,6 +43,12 @@ p {
   margin-bottom: 20px;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
+
+p.modals{
+  font-size: 14px;
+  line-height: 1.75;
+}
+
 .bg-primary {
   background-color: #3498db;
 }
@@ -410,6 +421,10 @@ body {
   webkit-tap-highlight-color: #222222;
 }
 
+.biggerspaceafter{
+  margin-bottom: 325px;
+}
+
 .bigspaceafter{
   margin-bottom: 250px;
 }
@@ -424,6 +439,10 @@ body {
 
 .averagespaceafter{
   margin-bottom: 100px;
+}
+
+.nextaveragespaceafter{
+  margin-bottom: 200px;
 }
 
 .verysmallspacesafter{
@@ -442,6 +461,9 @@ body {
   margin-top: 50px;
 }
 
+.medspacebefore{
+  margin-top: 100px;
+}
 
 ul.social-buttons {
   margin-bottom: 0;
@@ -479,7 +501,7 @@ ul.social-buttons li a:active {
 }
 
 .image-container {
-  background-image: url(../img/header.png);
+  background-image: url(../img/header.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
